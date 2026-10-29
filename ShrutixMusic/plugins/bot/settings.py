@@ -180,6 +180,7 @@ async def without_Admin_rights(client, CallbackQuery, _):
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from ShrutixMusic import nand
 
+
 REPO_VIDEO = "https://files.catbox.moe/aoafwn.mp4"
 
 @nand.on_message(filters.command(["repo", "source"]) & filters.private)
@@ -187,19 +188,28 @@ async def send_repo(_, message: Message):
     await message.reply_video(
         video=REPO_VIDEO,
         caption=(
-            "<b>✨ ʜᴇʏ ᴅᴇᴀʀ, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ᴏꜰꜰɪᴄɪᴀʟ ʀᴇᴘᴏꜱɪᴛᴏʀʏ ᴏꜰ ᴛʜɪꜱ ʙᴏᴛ ✨</b>\n\n"
-            "🔗 ᴅᴏɴ'ᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ɢɪᴠᴇ ᴀ ꜱᴛᴀʀ 🌟 ᴀɴᴅ ꜰᴏʟʟᴏᴡ!\n\n"
-            "🧡 ᴄʀᴇᴅɪᴛꜱ : <a href='https://t.me/ShrutiBots'>@ShrutiBots</a>"
+            "<b>⚡ SOURABH PROFESSOR</b>\n\n"
+            "🚀 <b>Innovating the Digital World</b>\n\n"
+            "Websites, Telegram Bots, Panels & "
+            "Digital Solutions — Built with Creativity, "
+            "Technology and Dedication.\n\n"
+            "👨‍💻 <b>Developer:</b> "
+            "<a href='https://t.me/HaveProfessor'>Sourabh Professor</a>\n\n"
+            "✨ Turning Ideas into Digital Reality."
         ),
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("🎵 Music + Management Bot Repo", url="https://github.com/NoxxOP/ShrutiMusic")],
-                [InlineKeyboardButton("🎧 Only Music Bot Repo", url="https://github.com/NoxxOP/ShrutixMusic")]
+                [
+                    InlineKeyboardButton(
+                        "[ 𝗣𝗥𝚯𝗙𝗘𝗦𝗦𝚯𝗥 ][ ѕαиαтαиι ]🦅",
+                        url="https://telegram.me/LearnToProfessor"
+                    )
+                ]
             ]
         ),
         supports_streaming=True,
-        has_spoiler=True,
     )
+
 
 @nand.on_callback_query(filters.regex("FERRARIUDTI") & ~BANNED_USERS)
 @ActualAdminCB
