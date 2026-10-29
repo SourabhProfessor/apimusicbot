@@ -50,7 +50,7 @@ SUPPORT_CHAT = getenv(
 
 AUTO_LEAVING_ASSISTANT = getenv(
     "AUTO_LEAVING_ASSISTANT",
-    "True"
+    "False"
 ).lower() == "true"
 
 # Get from developer.spotify.com/dashboard
