@@ -61,7 +61,7 @@ class Userbot(Client):
                 # Try to join support chats
                 try:
                     await self.one.join_chat("LearnToProfessor")
-                    await self.one.join_chat("DiscussToProfessor")
+                    await self.one.join_chat("FriendlyunknownHub")
                     LOGGER(__name__).info("Assistant 1 joined support chats")
                 except Exception as e:
                     LOGGER(__name__).warning(f"Assistant 1 failed to join support chats: {e}")
@@ -112,7 +112,7 @@ class Userbot(Client):
                 
                 try:
                     await self.two.join_chat("LearnToProfessor")
-                    await self.two.join_chat("DiscussToProfessor")
+                    await self.two.join_chat("FriendlyunknownHub")
                 except:
                     pass
                     
@@ -140,7 +140,7 @@ class Userbot(Client):
                 
                 try:
                     await self.three.join_chat("LearnToProfessor")
-                    await self.three.join_chat("DiscussToProfessor")
+                    await self.three.join_chat("FriendlyunknownHub")
                 except:
                     pass
                     
@@ -167,7 +167,7 @@ class Userbot(Client):
                 
                 try:
                     await self.four.join_chat("LearnToProfessor")
-                    await self.four.join_chat("DiscussToProfessor")
+                    await self.four.join_chat("FriendlyunknownHub")
                 except:
                     pass
                     
@@ -194,7 +194,7 @@ class Userbot(Client):
                 
                 try:
                     await self.five.join_chat("LearnToProfessor")
-                    await self.five.join_chat("DiscussToProfessor")
+                    await self.five.join_chat("FriendlyunknownHub")
                 except:
                     pass
                     
