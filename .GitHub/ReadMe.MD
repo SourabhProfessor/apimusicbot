@@ -1,4 +1,4 @@
-<h1 align="center">ShrutixMusic</h1>
+<h1 align="center">DivyanshixMusic</h1>
 
 <p align="center">
   <strong>Music for Telegram voice chats.</strong><br>
@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://files.catbox.moe/9slc96.png" alt="ShrutixMusic" width="220">
+  <img src="https://files.catbox.moe/9slc96.png" alt="DivyanshixMusic" width="220">
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://render.com/deploy?repo=https://github.com/NoxxOP/ShrutixMusic">
+  <a href="https://render.com/deploy?repo=https://github.com/SourabhProfessor/apimusicbot">
     <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
   </a>
 </p>
@@ -29,7 +29,7 @@
     <img src="https://img.shields.io/badge/Support-Join%20Chat-5865F2?style=for-the-badge&logo=telegram&logoColor=white" alt="Support chat">
   </a>
   <a href="https://t.me/WTF_WhyMeeh">
-    <img src="https://img.shields.io/badge/Contact-Nand%20Yaduwanshi-20232A?style=for-the-badge&logo=telegram&logoColor=white" alt="Contact Nand Yaduwanshi">
+    <img src="https://img.shields.io/badge/Contact-Nand%20Yaduwanshi-20232A?style=for-the-badge&logo=telegram&logoColor=white" alt="Contact Sourabh Professor">
   </a>
 </p>
 
@@ -527,4 +527,4 @@ See the `LICENSE` file. Personal and educational use is allowed. Credits and the
 
 ## Contact
 
-Nand Yaduwanshi: [@WTF_WhyMeeh](https://t.me/WTF_WhyMeeh) on Telegram. Message directly for support, custom bots and business enquiries.
+Sourabh Professor: [@SourabhProfessor](https://t.me/HaveProfessor) on Telegram. Message directly for support, custom bots and business enquiries.
